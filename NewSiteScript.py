@@ -1,6 +1,6 @@
 from extras.scripts import *
 from django.utils.text import slugify
-from extras.plugins import PluginConfig
+from netbox.plugins import PluginConfig
 from dcim.choices import DeviceStatusChoices, SiteStatusChoices
 from dcim.models import Device, DeviceRole, DeviceType, Site
 
